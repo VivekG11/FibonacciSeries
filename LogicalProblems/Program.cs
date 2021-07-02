@@ -25,6 +25,10 @@ namespace LogicalProblems
                     Console.WriteLine("Finding a Perfect Number ........");
                     PerfectNumber.FindPerfectNumber();
                     break;
+                case 3:
+                    Console.WriteLine("Finding a Prime Number");
+                    Prime.PrimeNumber();
+                    break;
                 default:
                     break;
             }
