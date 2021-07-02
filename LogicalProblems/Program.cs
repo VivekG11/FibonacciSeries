@@ -29,6 +29,10 @@ namespace LogicalProblems
                     Console.WriteLine("Finding a Prime Number");
                     Prime.PrimeNumber();
                     break;
+                case 4:
+                    Console.WriteLine("Reversing  a Number :");
+                    Reverse.ReverseNumber();
+                    break;
                 default:
                     break;
             }
