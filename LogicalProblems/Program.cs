@@ -37,6 +37,10 @@ namespace LogicalProblems
                     Console.WriteLine("Creating Coupon Numbers :");
                     Coupon.CouponNumbers();
                     break;
+                case 6:
+                    Console.WriteLine("Finding Time Elapsed :");
+                    StopWatch.FindTimeElapse();
+                    break;
                 default:
                     break;
             }
