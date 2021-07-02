@@ -17,10 +17,14 @@ namespace LogicalProblems
              * ................................................*/
             switch (options)
             {
-               /* case 1:
+                case 1:
                     Console.WriteLine("Fibonacci Series ......");
                     Fibonacci.FindFibonacciSeries();
-                    break;*/
+                    break;
+                case 2:
+                    Console.WriteLine("Finding a Perfect Number ........");
+                    PerfectNumber.FindPerfectNumber();
+                    break;
                 default:
                     break;
             }
