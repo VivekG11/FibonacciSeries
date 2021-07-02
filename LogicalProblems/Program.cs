@@ -33,6 +33,10 @@ namespace LogicalProblems
                     Console.WriteLine("Reversing  a Number :");
                     Reverse.ReverseNumber();
                     break;
+                case 5:
+                    Console.WriteLine("Creating Coupon Numbers :");
+                    Coupon.CouponNumbers();
+                    break;
                 default:
                     break;
             }

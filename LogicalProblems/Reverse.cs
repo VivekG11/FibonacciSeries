@@ -19,6 +19,7 @@ namespace LogicalProblems
                 rem = num % 10;//In this step we get last digit of the number 
                 rev = rev * 10 + rem ;//here we add the digit to rev variable and this is repeated until input is gretaer than 0
                 num = num / 10;
+                
             }
             /*....................................................................
              * The number obtained in the rev variable is the reverse of the input number
